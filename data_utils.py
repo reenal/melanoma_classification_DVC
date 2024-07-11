@@ -40,7 +40,7 @@ def create_metadata():
     test_df.to_csv(os.path.join(base_dir, 'test_metadata.csv'), index=False)
 
 def setup_data():
-    #download_dataset()
+    download_dataset()
     create_metadata()
 
 if __name__ == '__main__':
