@@ -11,7 +11,7 @@ def download_dataset():
     api.dataset_download_files('hasnainjaved/melanoma-skin-cancer-dataset-of-10000-images', path='./data', unzip=True)
 
 def create_metadata():
-    base_dir = 'data/melanoma/'
+    base_dir = 'data/melanoma_cancer_dataset/'
     train_dir = os.path.join(base_dir, 'train/')
     test_dir = os.path.join(base_dir, 'test/')
 

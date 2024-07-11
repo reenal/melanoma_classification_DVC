@@ -13,7 +13,7 @@ if __name__ == '__main__':
 
     # Directories and files
     print("data downlaoding and creating metadata started")
-    base_dir = 'data/melanoma/'
+    base_dir = 'data/melanoma_cancer_dataset/'
     train_csv = os.path.join(base_dir, 'train_metadata.csv')
     test_csv = os.path.join(base_dir, 'test_metadata.csv')
     train_dir = os.path.join(base_dir, 'train')
